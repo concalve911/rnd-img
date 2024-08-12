@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+.rnd__img {
+  width: 500px;
+  height: 300px;
+  max-width: 100%;
+  object-fit: cover;
+  display: flex;
+  text-align: center;
+}
